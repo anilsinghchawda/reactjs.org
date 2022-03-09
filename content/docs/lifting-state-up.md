@@ -150,7 +150,7 @@ For example, `tryConvert('abc', toCelsius)` returns an empty string, and `tryCon
 
 ## Lifting State Up {#lifting-state-up}
 
-Currently, both `TemperatureInput` components independently keep their values in the local state:
+Currently, both `TemperatureInput` components independently keep their values in their local state:
 
 ```js{5,9,13}
 class TemperatureInput extends React.Component {
